@@ -1,0 +1,426 @@
+ *{
+    margin: 0%; /* creates space between the objects and the border */
+    padding: 0%;  /*Create space around the content */
+    box-sizing: border-box;
+    
+  }  
+
+.header{ /* class type*/
+  padding: 20px;
+  text-align: center;
+  background: #3dbc96;
+  color: white;
+}
+
+.header h1 {
+ font-size: 60px;
+}
+
+h2 {
+    padding-left: 25px;
+    color: #dbcfcf;
+ }
+
+.navbar {/* class type*/
+    display: flex;
+    
+}
+
+.navbarleft {
+    text-align: center;
+    background: #0f92b0;
+    color: white; 
+}
+
+ul {/* class type*/
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+     /* border: 5px solid;  */
+}
+
+
+
+ul li a{
+    padding:0 30px;
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li a:hover{
+    padding:0 30px;
+    text-decoration: none;
+    color: #eed9d9;
+    border: 1px solid white;
+}
+
+ul li.active a {
+    background-color: #9e4cca;
+    color: white;  
+}
+
+
+img {/* class type*/
+    width: 70%;
+    padding: 20px;
+}
+
+body {/* class type*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.content{/* class type*/
+    background-color: rgb(113, 104, 104);
+}
+
+
+.Home/* class type*/
+{ 
+    display: flex;
+    background-color: rgb(55, 46, 46);
+    align-items: center;
+    animation-name: mainback;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mainback {
+    from {background-color: rgb(55, 46, 46);}
+    to {background-color: rgb(188, 130, 130);}
+  }
+
+
+.Home .block{
+    display: block;
+}
+
+.Home ul,.Home h1{
+    text-align: left;
+    padding-right: 40px; 
+    color: white;
+
+}
+
+.Home p{
+    padding-top: 30%;
+    margin-right: 40px;
+    color: #0f92b0;
+    text-align: justify;
+    font-size: xx-large;
+
+}
+.Home img{
+    width:80%;
+    padding: 0px;
+    align-self:center;
+}
+
+.block ul, .block p{
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.Primary{/* class type*/
+    display: flex;
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite;
+}
+
+.Secondary{/* class type*/
+    display: flex;
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite;
+}
+
+
+.Tertiary{/* class type*/
+    display: flex;
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite;
+}
+
+.AboutMe/* class type*/
+{
+    display: flex;
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite; 
+}
+
+.Description/* class type*/
+{
+    display: flex;
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite;
+        
+}
+
+.Description img{
+    width: 100%;
+    padding: 20px; 
+    padding-top: 40px;
+}
+
+.Description p{
+    text-align: justify;
+    padding: 30px;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+.Achievements/* class type*/
+{ 
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite; 
+}
+
+.Jobs/* class type*/
+{ 
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite; 
+}
+
+
+.Jobs h2
+{
+    color: #8A3033 ; 
+    font-size: x-large;
+}
+
+.Jobs img{
+    width: 60%;
+    padding: 20px;  
+}
+
+
+.Achievements h2, .Gaming h2
+{
+    color: #8A3033 ; 
+    font-size: x-large;
+}
+
+.Game/* class type*/
+{
+display: flex;
+width: 50%;
+padding: 20px;
+}
+
+.Creep {
+    display: flex;
+    align-self: center;
+}
+
+.Hobbies/* class type*/
+{
+    display: flex;
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite;  
+}
+
+.Gaming
+{
+    padding: 10px;
+    border: 5px solid;
+    background-color: antiquewhite;     
+}
+
+.Gaming p{
+    text-align: justify;
+}
+
+.LinkTop a{
+    text-decoration: none;
+    color: white;
+    background-color: #1b9baf;
+    font-size: x-large;
+    padding: 10px;
+    width: 20%;
+}
+/* .footer{ class type
+    display: block;
+    padding: 5px;
+    text-align: center;
+    background-color: #8A3033;
+    font-size: x-large;
+    color: white;
+     background-image: url('../images/team.jpg'); 
+} */
+
+@media screen and (width > 1000px)
+    {
+        .Game
+        {
+            width: 48%;
+        }
+        
+        .Description p{
+            font-size: x-large;
+        }
+        .Achievements p, .Gaming p, .Hobbies p{
+            padding: 20px;
+            font-size: x-large;
+            text-align: justify;
+        }
+
+        .Primary img, .Secondary img, .Tertiary img, .Hobbies img{
+            width:100%;
+        }
+
+        .block p
+        {
+            font-size: 25px;
+        }
+
+        .block ul{
+            font-size: 25px;
+        }
+
+    }
+
+@media screen and (max-width: 1000px)
+    {
+        .Home
+        {
+            display: block;
+        }
+
+        .Home p
+        {
+            padding-top: 0px;
+        }
+        .Game
+        {
+            width: 48%;
+        }
+        
+        .Achievements p, .Gaming p, .Hobbies p{
+            font-size: 25px;
+            text-align: justify;
+        }
+
+        .Primary img, .Secondary img, .Tertiary img, .Hobbies img{
+            width:100%;
+        }
+
+        .Hobbies{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        
+        .block p
+        {
+            font-size: 25px;
+        }
+
+        .block ul{
+            font-size: 25px;
+        }
+
+
+    }
+
+                
+    @media screen and (max-width: 768px)
+    {
+        ul{
+            font-size: 15px;
+        }
+
+        .Description{
+            padding: 10px;
+            border: 5px solid;
+            background-color: antiquewhite; 
+            width: 100%;
+            flex-wrap: wrap;
+            }
+
+        .Description img{
+            width:50%
+        }
+        
+        .Home p
+        {
+            padding-top: 0px;
+        }
+        .Game
+        {
+            width: 50%;
+            padding-left:10px;
+        }
+
+        .Primary, .Secondary, .Tertiary, .Hobbies{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .Primary img, .Secondary img, .Tertiary img, .Hobbies img{
+            width:100%;
+        }
+
+        .block p, .block ul, .Hobbies p{
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 540px)
+    {
+
+        .header h1 {
+            font-size: 40px;
+           }
+
+        ul {/* class type*/
+            display: flex;
+            list-style-type: none;
+            font-size: 12px;
+        }
+
+        .Home p, .Description p
+        {
+            font-size: 20px;
+            padding-top: 0px;
+        }
+
+        .Description{
+            padding: 10px;
+            border: 5px solid;
+            background-color: antiquewhite; 
+            width: 100%;
+            flex-wrap: wrap;
+            }
+
+        .Description img{
+            width:100%
+        }
+
+        .Achievements img
+        {
+            width:100%
+        }
+
+        .Achievements p, .Gaming p, .Hobbies p{
+            font-size: large;
+            text-align: justify;
+        }
+
+        .Game
+        {
+            flex-wrap: wrap;
+            width: 100%
+        }
+
+
+    }
